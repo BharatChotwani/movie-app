@@ -1,0 +1,118 @@
+
+/* reset css in body */
+body {
+  font-family:'Baloo Tammudu 2', cursive;
+  margin: 0px;
+  padding: 0px;
+  background:no-repeat url('bg2.jpg');
+  background-position: center;
+  height: 3000px;
+  color: white ;
+  
+  
+  
+}
+.left{
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 25px;
+}
+.left img{
+  width: 70px;
+  
+}
+.left div  {
+  line-height: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.mid{
+/* border: 2px solid green; */
+display: block;
+width: 54%;
+margin: 25px auto;
+position: sticky;
+bottom: 20px;
+}
+
+.right{
+/* border: 2px solid yellow; */
+display: inline-block;
+position: absolute;
+right: 35px;
+top: 40px;
+}
+
+.navbar{
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  
+}
+.navbar li a {
+  color:  white;
+  text-decoration: none;
+  padding: 30px 20px;
+  font-size: 35px;
+}
+.navbar li a:hover, .navbar li a:active{
+ text-decoration: underline;
+ color: rgb(110, 194, 173);
+}
+
+.btn {
+    margin: 0px 10px;
+    background-color:rgb(41, 140, 115);
+    color: white;
+    padding: 4px 10px;
+    border: 2px solid rgb(22,240,185);
+    border-radius: 10px;
+    font-size: 25px ;
+    cursor: pointer;
+    font-family:'Baloo Tammudu 2', cursive;
+    
+    
+}
+.btn:hover{
+    background-color: rgb(22, 240, 185);
+}
+.container {
+    border: 2px solid white;
+    margin: 110px 70px;
+    padding: 50px;
+    width: 43%;
+ border-radius: 30px;
+ font-size: 30px;
+}
+.container h1 {
+    text-align: center;
+
+}
+.container p {
+    color: rgb(41, 140, 115) ;
+}
+
+.form-group input{
+    font-size: 30px;
+  text-align: center;
+  display: block;
+  width: 650px;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin: 11px auto;
+  font-family:'Baloo Tammudu 2', cursive;
+
+}
+
+.form-group button {
+    display: block;
+    width: 660px;
+    margin: 50px auto;
+    font-family:'Baloo Tammudu 2', cursive;
+    font-size: 30px;
+}
