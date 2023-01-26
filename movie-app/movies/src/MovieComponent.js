@@ -17,6 +17,7 @@ const MovieComponent = () => {
       <h1>
         Movies <span>2022</span>
       </h1>
+      <hr />
       <ul className="movie-list">
         {movieData.map((movie) => {
           return <MovieListing key={movie.id} movie={movie} />;
